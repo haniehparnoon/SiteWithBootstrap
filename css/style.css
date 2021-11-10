@@ -1,0 +1,119 @@
+@font-face { font-family: 'Vazir';
+    src: url('font/Vazir.eot');
+    src: url('font/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('font/Vazir.woff2') format('woff2'), 
+         url('font/Vazir.woff') format('woff'),
+         url('font/Vazir.ttf') format('truetype');}
+
+
+#mysite{
+    color: orange;
+}
+#url {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar{
+    text-decoration: none;
+    color: white;
+    /* border: none; */
+    /* border-radius: 4px; */
+    /* padding: 10px; */
+}
+.navbar:hover{
+    background-color: orange;
+    color: white;
+}
+
+body{
+    font-size: small;
+    
+    font-family: 'Vazir';
+
+}
+.bg-gain{
+    background-color: gainsboro;
+}
+.tw{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 10px 10px; */
+    color: white;
+}
+span{
+    color: orange;
+ }
+#section1{
+    background-image: url(showcase.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    /* text-align: center; */
+    height:100hv;
+    /* position: relative; */
+    background-position: center;
+    
+     /* background-size: cover; */
+     background-repeat: no-repeat;
+    
+}
+
+.icon{
+    /* width: 60px;
+    height: 60px;
+    border-radius: 50%; */
+    background-color: orange;
+    /* position: relative; */
+}
+.button{
+    background-color: orange;
+    color: white;
+    /* border: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    padding: 6px 10px; */
+}
+.button:hover{
+    background-color: white;
+    color: orange;
+}
+
+#s3-part1{
+    color: white;
+}
+#s3-part2{
+    background-image: url(tree.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+/* .img{
+    width: 80px;
+    height: 80px;
+    border: white;
+    border-radius: 50%;
+} */
+.pborder{
+    border-bottom: rgb(46, 46, 45) 1px dotted;
+}
+/* .form{
+    max-width: 40%;
+    
+} */
+/* .form_input{
+    width:100%;
+  
+} */
+#copy{
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
